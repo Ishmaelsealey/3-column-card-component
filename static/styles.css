@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Manrope:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 15px;
+  font-family: Lexend Deca, sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 90vw;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 80px 0;
+}
+
+.title {
+  font-size: 40px;
+  font-family: Big Shoulders Display;
+  color: hsl(0deg, 0%, 95%);
+  margin: 35px 0;
+}
+
+.description {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  line-height: 25px;
+}
+
+section {
+  padding: 50px;
+}
+
+#sedan {
+  background-color: hsl(31deg, 77%, 52%);
+}
+#sedan .learnMore {
+  color: hsl(31deg, 77%, 52%);
+}
+
+#suv {
+  background-color: hsl(184deg, 100%, 22%);
+}
+#suv .learnMore {
+  color: hsl(184deg, 100%, 22%);
+}
+
+#luxury {
+  background-color: hsl(179deg, 100%, 13%);
+}
+#luxury .learnMore {
+  color: hsl(179deg, 100%, 13%);
+}
+
+.learnMore {
+  border: 5px solid hsl(0deg, 0%, 95%);
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: Lexend Deca, sans-serif;
+  margin-top: 30px;
+  width: 150px;
+}
+
+/*# sourceMappingURL=styles.css.map */
