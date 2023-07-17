@@ -47,12 +47,22 @@ section {
 #sedan .learnMore {
   color: hsl(31deg, 77%, 52%);
 }
+#sedan .learnMore:hover {
+  background-color: hsl(31deg, 77%, 52%);
+  color: hsl(0deg, 0%, 95%);
+  cursor: pointer;
+}
 
 #suv {
   background-color: hsl(184deg, 100%, 22%);
 }
 #suv .learnMore {
   color: hsl(184deg, 100%, 22%);
+}
+#suv .learnMore:hover {
+  background-color: hsl(184deg, 100%, 22%);
+  color: hsl(0deg, 0%, 95%);
+  cursor: pointer;
 }
 
 #luxury {
@@ -61,14 +71,20 @@ section {
 #luxury .learnMore {
   color: hsl(179deg, 100%, 13%);
 }
+#luxury .learnMore:hover {
+  background-color: hsl(179deg, 100%, 13%);
+  color: hsl(0deg, 0%, 95%);
+  cursor: pointer;
+}
 
 .learnMore {
-  border: 5px solid hsl(0deg, 0%, 95%);
+  border: 2px solid hsl(0deg, 0%, 95%);
   padding: 10px 20px;
   border-radius: 50px;
   font-family: Lexend Deca, sans-serif;
   margin-top: 30px;
   width: 150px;
+  background-color: hsl(0deg, 0%, 95%);
 }
 
 /*# sourceMappingURL=styles.css.map */
