@@ -50,8 +50,6 @@ section
         color: $sedan-color
     .learnMore:hover
         background-color: $sedan-color
-        color: $light-grey
-        cursor: pointer
 
 #suv
     background-color: $suv-color
@@ -59,8 +57,6 @@ section
         color: $suv-color
     .learnMore:hover
         background-color: $suv-color
-        color: $light-grey
-        cursor: pointer
 
 #luxury
     background-color: $luxury-color
@@ -68,8 +64,6 @@ section
         color: $luxury-color
     .learnMore:hover
         background-color: $luxury-color
-        color: $light-grey
-        cursor: pointer
 
 .learnMore
     border: 2px solid $light-grey
@@ -79,6 +73,11 @@ section
     margin-top: 30px
     width: 150px
     background-color: $light-grey
+    transition: all 0.2s ease-in-out
+
+.learnMore:hover
+    cursor: pointer
+    color: $light-grey !important
 
 @media screen and (min-width: 1110px)
     main
